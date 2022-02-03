@@ -24,4 +24,5 @@ Dokumentacja
 
    narzedzia
    publikacje
+   statystyki
    cytowanie
