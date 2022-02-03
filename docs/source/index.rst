@@ -22,5 +22,5 @@ Dokumentacja
 
 .. toctree::
 
-   usage
-   api
+   publikacje
+   narzedzia
