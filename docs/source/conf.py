@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Korpusomat'
+copyright = '2022, IPI PAN'
+author = 'IPI PAN'
 
 release = '0.1'
 version = '0.1.0'
