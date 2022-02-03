@@ -22,5 +22,6 @@ Dokumentacja
 
 .. toctree::
 
-   publikacje
    narzedzia
+   publikacje
+   cytowanie
