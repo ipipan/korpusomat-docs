@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "korpusomat-docs"
+authors = [{name = "IPI PAN", email = "lkobylinski@gmail.com"}]
 dynamic = ["version", "description"]

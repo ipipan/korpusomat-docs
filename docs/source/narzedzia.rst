@@ -4,7 +4,6 @@ Wykorzystane narzędzia
 Korpusomat jest aplikacją agregującą już istniejące narzędzia.
 
 Wykorzystane narzędzia to, między innymi:
-
  - Witold Kieraś and Marcin Woliński. Morfeusz 2 – analizator i generator fleksyjny dla języka polskiego. Język Polski, XCVII(1):75–83, 2017.
  - Waszczuk J., Kieraś W., Woliński M. (2018) Morphosyntactic Disambiguation and Segmentation for Historical Polish with Graph-Based Conditional Random Fields. In: Sojka P., Horák A., Kopeček I., Pala K. (eds) Text, Speech, and Dialogue. TSD 2018. Lecture Notes in Computer Science, vol 11107. Springer, Cham
  - Marcińczuk, Michał; Kocoń, Jan; Gawor, Michał. Recognition of Named Entities for Polish-Comparison of Deep Learning and Conditional Random Fields Approaches In: Ogrodniczuk, Maciej; Kobyliński, Łukasz (Eds.): Proceedings of the PolEval 2018 Workshop, pp. 63-73, Institute of Computer Science, Polish Academy of Science, Warszawa, 2018.
