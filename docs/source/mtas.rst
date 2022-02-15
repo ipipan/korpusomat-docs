@@ -754,7 +754,7 @@ fleksyjnych.
 
 
 .. image:: img/instrukcja/rysunek-drzewo.png
-  :width: 400
+  :width: 1300
   :alt: Rozbiór składniowy przykładowego zdania
 
 
