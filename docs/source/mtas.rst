@@ -739,7 +739,11 @@ Wprowadzony przez użytkownika tekst jest automatycznie dzielony na
 wypowiedzenia, które z kolei są poddawane pełnej analizie składniowej
 w aparacie zależnościowym według zasad przyjętych w `Polskim Banku Drzew
 Zależnościowych <http://zil.ipipan.waw.pl/PDB>`__. Przykład takiej
-analizy znajduje się na rysunku `[fig:tree] <#fig:tree>`__.
+analizy znajduje się na poniższym rysunku.
+
+.. image:: img/instrukcja/rysunek-drzewo.png
+  :width: 1300
+  :alt: Rozbiór składniowy przykładowego zdania
 
 MTAS nie jest wyszukiwarką struktur składniowych, nie pozwala zatem na
 indeksowanie i przeszukiwanie pełnych rozbiorów zdań. Jednak na poziomie
@@ -751,12 +755,6 @@ w wypowiedzeniu: kolejność w porządku linearnym oraz odległość (liczoną
 w segmentach). Pozwala to na łatwe wyszukanie w korpusie prostszych
 konstrukcji składniowych oraz analitycznych nieciągłych form
 fleksyjnych.
-
-
-.. image:: img/instrukcja/rysunek-drzewo.png
-  :width: 1300
-  :alt: Rozbiór składniowy przykładowego zdania
-
 
 W warstwie znakowania składniowego dostępne są następujące atrybuty:
 
