@@ -699,12 +699,12 @@ wystąpień konstrukcji czasu przyszłego złożonego, w których pojawia się
 bezokolicznik. Wśród wyników będą oczywiście również takie zdania,
 w których czas przyszły został utworzony z formy pseudoimiesłowu,
 a bezokolicznik pełni w zdaniu inną funkcję gramatyczną. Można też
-sformułować zapytanie odwrotnie zapytać o zdania, w których forma
+sformułować zapytanie odwrotnie i zapytać o zdania, w których forma
 pseudoimiesłowu w ogóle nie występuje:
 
 ::
 
-   [pos="fut"] within (<s/> !containing [pos="praet"])
+   [pos="bedzie"] within (<s/> !containing [pos="praet"])
 
 Pełną listę słów kluczowych, które mogą się pojawić w zapytaniach
 wyszukiwarki MTAS, można znaleźć w jej
@@ -752,16 +752,11 @@ w segmentach). Pozwala to na łatwe wyszukanie w korpusie prostszych
 konstrukcji składniowych oraz analitycznych nieciągłych form
 fleksyjnych.
 
-.. container:: dependency
 
-   .. container:: deptext
+.. image:: img/instrukcja/rysunek-drzewo.png
+  :width: 400
+  :alt: Rozbiór składniowy przykładowego zdania
 
-      | Stanisław & zjadł &[.6cm] w & restauracji & niesmaczny & obiad &
-        .
-      | ``subst`` & ``praet`` & ``prep`` & ``subst`` & ``adj`` &
-        ``subst`` & ``interp``
-
-[sent1]
 
 W warstwie znakowania składniowego dostępne są następujące atrybuty:
 
