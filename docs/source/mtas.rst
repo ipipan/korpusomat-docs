@@ -956,32 +956,20 @@ można łączyć z cechami ortograficznymi i morfosyntaktycznymi segmentów,
 z których są one zbudowane lub klasyfikacją nazewniczą ich elementów
 składowych. Oto kilka przykładów takich zapytań:
 
--  ::
-
-      [pos="conj" & base="i"] within <ne="orgName" />
-
+- [pos="conj" & base="i"] within <ne="orgName" />
    — wszystkie nazwy organizacji zawierające spójnik i, np. *Krajowa
    Rada Radiofonii i Telewizji* czy *Instytut Meteorologii i Gospodarki
    Wodnej*,
 
--  ::
-
-      <ne="persName" /> !containing <ne="persName.forename" />
-
+- <ne="persName" /> !containing <ne="persName.forename" />
    — wszystkie jednostki nazywające osoby, których składową nie jest
    imię,
 
--  ::
-
-      <ne="geogName" /> [pos="conj"] <ne="geogName" />
-
+- <ne="geogName" /> [pos="conj"] <ne="geogName" />
    — wystąpienia dwóch nazw geograficznych połączonych spójnikiem
    współrzędnym, np. *Europa Zachodnia lub Skandynawia*.
 
--  ::
-
-      [orth="A.*"][orth="M.*"] fullyalignedwith <ne="persName" />
-
+- [orth="A.*"][orth="M.*"] fullyalignedwith <ne="persName" />
    — dwa kolejne segmenty, z których pierwszy zaczyna się od *A*, drugi
    zaś od *M* i które w całości w tekście występują jako nazwa osoby,
    np. *Adam Michnik*, *Antoni Macierewicz*.
