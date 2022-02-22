@@ -23,6 +23,7 @@ Dokumentacja
 
    instrukcja/index
    mtas
+   profile-slow
    statystyki
    narzedzia
    publikacje
