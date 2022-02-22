@@ -790,8 +790,7 @@ rzeczownik:
 
 ::
 
-   [deprel="obj.*" & head.pos="(fin|praet|ppas|pact|ger|impt|imps)" 
-       & base="betel"]
+   [deprel="obj.*" & head.pos="(fin|praet|ppas|pact|ger|impt|imps)" & base="betel"]
 
 Należy jednak zwrócić uwagę, że w powyższym przykładzie wynikiem
 zapytania będą wystąpienia rzeczownika betel, nadrzędne względem nich
@@ -808,8 +807,7 @@ innych niż nominalne. Na przykład za pomocą zapytania:
 
 ::
 
-   [deprel="comp" & head.pos="(fin|praet|imps|impt|ppas|pact)" 
-       & base="o" & case="loc"]
+   [deprel="comp" & head.pos="(fin|praet|imps|impt|ppas|pact)" & base="o" & case="loc"]
 
 można znaleźć czasowniki wymagające frazy przyimkowej miejscownikowej
 z przyimkiem o.
@@ -870,8 +868,7 @@ czy analitycznych form stopnia wyższego i najwyższego przymiotników:
 
 ::
 
-   [deprel="adjunct" & base="bardzo" & degree="(com|sup)"
-        & head.pos="adj"]
+   [deprel="adjunct" & base="bardzo" & degree="(com|sup)" & head.pos="adj"]
 
 Podobnie w wypadku konstrukcji biernej:
 
