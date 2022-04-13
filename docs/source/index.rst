@@ -1,7 +1,7 @@
 Korpusomat
 ===================================
 
-**Korpusomat** jest aplikacją webową służącą do tworzenia oznakowanych fleksyjnie korpusów tekstów, z których można korzystać za pomocą wyszukiwarki MTAS. Aplikacja w zasadzie nie stanowi nowego narzędzia informatycznego, a jedynie łączy narzędzia, które powstały przed laty lub wciąż są rozwijane w Zespole Inżynierii Lingwistycznej Instytutu Podstaw Informatyki PAN. Zasadniczym celem Korpusomatu jest udostępnienie wyników działań tych narzędzi bez konieczności szczegółowego poznawania technicznej strony ich działania, co do tej pory nie było możliwe.
+**Korpusomat** jest aplikacją webową służącą do tworzenia oznakowanych fleksyjnie korpusów tekstów, z których można korzystać za pomocą wyszukiwarki MTAS. Aplikacja w zasadzie nie stanowi nowego narzędzia informatycznego, a jedynie łączy narzędzia, które powstały przed laty lub wciąż są rozwijane w `Zespole Inżynierii Lingwistycznej Instytutu Podstaw Informatyki PAN <zil.ipipan.waw.pl/>`_. Zasadniczym celem Korpusomatu jest udostępnienie wyników działań tych narzędzi bez konieczności szczegółowego poznawania technicznej strony ich działania, co do tej pory nie było możliwe.
 
 Na działanie Korpusomatu składają się:
  - analizator morfologiczny Morfeusz stworzony w oparciu o dane lingwistyczne Słownika gramatycznego języka polskiego,
