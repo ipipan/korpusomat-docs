@@ -912,19 +912,19 @@ Najprostsze możliwe zapytanie tego typu ma postać:
 
 i zwróci wszystkie jednostki nazewnicze wszystkich typów odnalezione
 w korpusie. Wyszukanie można ograniczyć do konkretnego typu nazw np.
-nazw miejsc:
+nazw osób:
 
 ::
 
-   <ne="placeName" />
+   <ne="persName" />
 
 Ta kategoria jednostek ma swoją dodatkową podkategorię klasyfikującą
-rodzaje miejsc: regiony, kraje, miejscowości itp. Następujące zapytanie
-ograniczy wyniki jedynie do nazw krajów:
+człony nazwy osobyc: imię, nazwisko, itp. Następujące zapytanie
+ograniczy wyniki jedynie do nazwisk:
 
 ::
 
-   <ne="placeName.country" />
+   <ne="persName.surname" />
 
 Pełny repertuar wartości klasyfikacji jednostek nazewniczych to:
 
@@ -942,7 +942,8 @@ Pełny repertuar wartości klasyfikacji jednostek nazewniczych to:
    *województwo mazowieckie*), ``country`` (państwa, kraje, wspólnoty,
    kolonie, np. *Polska*, *Gujana Francuska*), ``bloc`` (organizacje
    polityczne obejmujące co najmniej dwa państwa, np. *Unia Europejska*,
-   *Grupa Wyszehradzka*),
+   *Grupa Wyszehradzka*); **uwaga**: w przypadku typu ``placeName`` zapytanie ogólne
+   nie zwraca wyników anotowanych podtypami szczegółowymi,
 
 -  wyrażenia czasowe: ``date`` (daty kalendarzowe, np. 13 sierpnia 2018
    r.) oraz ``time`` (określenia czasu w postaci godzin, minut i sekund,
