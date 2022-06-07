@@ -348,8 +348,7 @@ wyrażeń.
 
 Specyfikacje segmentów podane powyżej muszą pasować do całych segmentów
 stąd konieczność umieszczenia po obu stronach ciągu ``(la){3,}`` w
-zapytaniu `[lala] <#lala>`__. o segmenty zawierające ciąg *lalala*
-wyrażenia ``.*``, pasującego do dowolnego ciągu znaków.
+zapytaniu ``[orth=".*(la){3,}.*"]`` wyrażenia ``.*``, pasującego do dowolnego ciągu znaków.
 
 Zapytania z innymi atrybutami
 -----------------------------
