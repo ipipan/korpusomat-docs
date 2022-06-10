@@ -44,4 +44,8 @@ html_css_files = [
 ]
 
 # Logo w lewy górnym rogu?
-# html_logo = "img/logo.svg"
+# html_logo = "logo.svg"
+# html_theme_options = {
+#    "logo_only": True,
+#    "display_version": False,
+#}
