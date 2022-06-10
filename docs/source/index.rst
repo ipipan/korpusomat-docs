@@ -1,3 +1,10 @@
+.. role:: todo
+    :class: todo
+
+.. role:: lex
+    :class: lex
+
+
 Korpusomat.pl
 ===================================
 

@@ -33,7 +33,7 @@ Znaczniki morfosyntaktyczne, tzw. tagi, przypisane są segmentom
 ortograficzne (słowa ‘od spacji do spacji’), ale w niektórych wypadkach
 segmenty mogą być krótsze niż takie słowa:
 
--  Jako odrębne segmenty traktowane są formy aglutynacyjne leksemu być,
+-  Jako odrębne segmenty traktowane są formy aglutynacyjne leksemu :lex:`być`,
    a zatem następujące słowa reprezentują po dwa segmenty: *[łgał][eś]*,
    *[długo][śmy]*, *[tak][em]*.
 
@@ -102,9 +102,9 @@ Morfeusza w stosunku do tagsetu NKJP jest wprowadzenie obok kategorii
 rodzaju opcjonalnej tzw. kategorii przyrodzaju o wartościach ``pt``,
 ``col`` i ``ncol`` przysługują one wyłącznie klasom ``subst`` i ``num``.
 W wypadku ``subst`` informują o łączliwości danego rzeczownika rodzaju
-nijakiego z liczebnikami głównymi (``ncol``, np. okno) lub zbiorowymi
-(``col``, np. dziecko) oraz o braku w paradygmacie rzeczownika form
-liczby pojedynczej (``pt``, np. skrzypce). W wypadku klasy ``num``
+nijakiego z liczebnikami głównymi (``ncol``, np. :lex:`okno`) lub zbiorowymi
+(``col``, np. :lex:`dziecko`) oraz o braku w paradygmacie rzeczownika form
+liczby pojedynczej (``pt``, np. :lex:`skrzypce`). W wypadku klasy ``num``
 wartość kategorii przyrodzaju informuje o tym, że dana forma jest
 zbiorowa (``col``, np. *dwoje*) lub niezbiorowa (``ncol``, np. *dwa*).
 Konsekwencją wprowadzenia kategorii przyrodzaju w klasie ``num`` było
@@ -353,7 +353,7 @@ zapytaniu ``[orth=".*(la){3,}.*"]`` wyrażenia ``.*``, pasującego do dowolnego 
 Zapytania z innymi atrybutami
 -----------------------------
 
-Aby znaleźć wszystkie formy leksemu korpus, można użyć następującego
+Aby znaleźć wszystkie formy leksemu :lex:`korpus`, można użyć następującego
 zapytania:
 
 ::
@@ -378,7 +378,7 @@ komitet lub komitat.
 
 Zapytania o różne atrybuty segmentów można łączyć. Na przykład, aby
 znaleźć wszystkie wystąpienia segmentu *minę* rozumianego jako forma
-leksemu mina (a nie na przykład leksemu minąć), można zadać następujące
+leksemu :lex:`mina` (a nie na przykład leksemu :lex:`minąć`), można zadać następujące
 zapytanie:
 
 ::
@@ -386,7 +386,7 @@ zapytanie:
    [orth="minę" & base="mina"] 
 
 Podobne znaczenie ma następujące zapytanie o te wystąpienia segmentu
-*minę*, które nie są interpretowane jako formy leksemu minąć.
+*minę*, które nie są interpretowane jako formy leksemu :lex:`minąć`.
 
 ::
 
@@ -413,8 +413,8 @@ rolę logicznej alternatywy. Oto kilka przykładów użycia tego operatora:
 
       [orth="pora" & !(base="por" | base="pora")]
 
-   segment *pora* nie będący ani formą leksemu por, ani formą leksemu
-   pora.
+   segment *pora* nie będący ani formą leksemu :lex:`por`, ani formą leksemu
+   :lex:`pora`.
 
 Aby lepiej zrozumieć różnicę pomiędzy operatorami ``&`` i ``|``,
 porównajmy następujące dwa zapytania:
@@ -426,13 +426,13 @@ porównajmy następujące dwa zapytania:
 
 W wyniku zadania pierwszego zapytania znalezione zostaną te segmenty,
 które są jednocześnie (koniunkcja) segmentem *minę* i formą leksemu
-mina, a więc wyłącznie te wystąpienia segmentu *minę*, które są
-interpretowane jako formy leksemu mina. W wyniku zadania drugiego
+:lex:`mina`, a więc wyłącznie te wystąpienia segmentu *minę*, które są
+interpretowane jako formy leksemu :lex:`mina`. W wyniku zadania drugiego
 zapytania znalezione natomiast zostaną te segmenty, które są albo
-dowolnie interpretowanym segmentem *minę*, albo formą leksemu mina
+dowolnie interpretowanym segmentem *minę*, albo formą leksemu :lex:`mina`
 (alternatywa), czyli wszystkie wystąpienia zarówno segmentu minę, jak
 i segmentów mina, miny, minami itp. interpretowanych jako formy leksemu
-mina.
+:lex:`mina`.
 
 Specyfikacje pozycji w korpusie, ujęte w nawiasy kwadratowe, mogą
 zawierać dowolną liczbę warunków typu ``atrybut="wartość"`` (na przykład
@@ -460,7 +460,7 @@ Dla wielu zastosowań ciekawsza byłaby możliwość zapytania na przykład
 o formy oddalone od siebie o najwyżej pięć pozycji. MTAS umożliwia
 zadawanie takich pytań, gdyż pozwala na formułowanie wyrażeń regularnych
 także na poziomie pozycji korpusu. Na przykład zapytanie o formę leksemu
-bać występującą dwie, trzy lub cztery pozycje dalej niż forma *się* może
+:lex:`bać` występującą dwie, trzy lub cztery pozycje dalej niż forma *się* może
 wyglądać następująco:
 
 ::
@@ -473,7 +473,7 @@ boi*.
 
 Zapewne nieco bardziej precyzyjnym zapytaniem o różne wystąpienia form
 tzw. czasownika zwrotnego bać się byłoby zapytanie o *się* w pewnej
-odległości przed formą leksemu bać, ale bez znaku interpunkcyjnego
+odległości przed formą leksemu :lex:`bać`, ale bez znaku interpunkcyjnego
 pomiędzy tymi formami, lub bezpośrednio za taką formą, ewentualnie
 oddzielone od formy bać zaimkiem osobowym:
 
@@ -679,7 +679,7 @@ Aby ograniczyć zasięg zapytania, należy dopisać do zapytania słowo
 kluczowe ``within``, a po nim ``<s/>`` lub ``<p/>``, w zależności od
 tego, czy zasięg ma być ograniczony do zdania (ang. *sentence*) czy do
 akapitu (ang. *paragraph*). Ilustruje to następujący przykład zapytania
-o zdania, w których forma *się* występuje za formą leksemu być,
+o zdania, w których forma *się* występuje za formą leksemu :lex:`być`,
 w odległości co najmniej jednego i nie więcej niż dziesięciu segmentów:
 
 ::
@@ -792,7 +792,7 @@ rzeczownik:
    [deprel="obj.*" & head.pos="(fin|praet|ppas|pact|ger|impt|imps)" & base="betel"]
 
 Należy jednak zwrócić uwagę, że w powyższym przykładzie wynikiem
-zapytania będą wystąpienia rzeczownika betel, nadrzędne względem nich
+zapytania będą wystąpienia rzeczownika :lex:`betel`, nadrzędne względem nich
 formy czasownikowe (finitywne i niefinitywne) będą się zaś znajdowały
 w lewym lub prawym kontekście wyników wyróżnione pismem pogrubionym.
 Można je jednak zgrupować i posortować względem ich częstości dzięki
@@ -832,7 +832,7 @@ nadrzędnika w zapytaniu:
 
    [pos="adj" & deprel="adjunct" & head.base="zupa"]
 
-zwróci wszystkie przymiotnikowe określenia rzeczownika zupa. Dodanie
+zwróci wszystkie przymiotnikowe określenia rzeczownika :lex:`zupa`. Dodanie
 parametru pozycji pozwoli ograniczyć wyszukanie do określeń
 lewostronnych (np. *gorąca zupa*) lub prawostronnych (np. *zupa
 pomidorowa*).
@@ -1031,9 +1031,9 @@ W oryginalnej bazie danych słownika NAWL każde słowo zostało przypisane
 tylko do jednej kategorii. W zaimplementowanej w Korpusomacie wersji
 rozszerzonej tego słownika słowo może mieć przypisaną więcej niż jedną
 etykietę kategorii emocji, jeśli te emocje uzyskały w bazie odpowiednio
-wysoki wskaźnik. Na przykład rzeczownik wojna w słowniku rozszerzonym ma
+wysoki wskaźnik. Na przykład rzeczownik :lex:`wojna` w słowniku rozszerzonym ma
 przypisane dwie etykiety: strach (F) i smutek (S). Zapytanie o każdą
-z tych emocji zwróci wystąpienia rzeczownika wojna w korpusie (o ile
+z tych emocji zwróci wystąpienia rzeczownika :lex:`wojna` w korpusie (o ile
 oczywiście to słowo się w nim znajduje). Jednak w oryginalnym słowniku
 ten sam rzeczownik jest przypisany do kategorii U, czyli słów
 niesklasyfikowanych ze względu na niejednoznaczne wskazania ankietowe.
